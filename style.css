@@ -15,7 +15,7 @@
 
 .pay-info{
     height: 55vh;
-    max-width: 28vw;
+    width: 28vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -387,6 +387,7 @@
     left: 0;
     transform: translateY(-100%);
 
+
 }
 
 .endText{
@@ -415,3 +416,75 @@
 }
 
 
+/**********************************************************************************/
+
+
+@media(max-width:500px){
+    
+.pay-info{
+    height: 55vh;
+    width: 50vw;
+
+}
+ 
+ label{
+    font-size: 2.3vw;
+   
+    
+    
+}
+
+.submit{
+    font-size: 3.3vw;
+}
+
+.labels{
+   width: 82%;
+   padding: 3px;
+}
+
+.Flip-Card{
+    width: 36vw;
+    height:25vh;
+    
+}
+
+.barCode{
+    max-height:25px;
+    max-width: 50px;
+
+}
+.visa{
+    max-height:30px;
+    max-width: 50px;
+  
+}
+
+.CVVvalue{
+    
+    font-size: 4.5vw;
+   
+   
+}
+.dateValue{
+
+    font-size: 2vw;
+     
+}
+
+.theName{
+    font-size: 3vw;
+    
+}
+
+.mohamed{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-12%);
+    font-size: 3vw;
+ 
+}
+  
+}
