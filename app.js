@@ -186,8 +186,9 @@ function checkCerditValidation(e) {
     }
 
     //check crdNam
-    flagCrdNam=alphanumeric(checkCardName);
-    console.log(flagCrdNam);
+   const name=checkCardName.replace(/\s/g, '');
+    console.log(name);
+    flagCrdNam=alphanumeric(name);
     if(!flagCrdNam){
         flag=false;
         holderName.classList.add("focusInvalid");
